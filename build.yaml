@@ -23,3 +23,6 @@ include:
     shield: lily58_left
   - board: sparkfun_pro_micro_rp2040
     shield: lily58_right
+  - board: sparkfun_pro_micro_rp2040
+    shield: pixycheck48
+    
