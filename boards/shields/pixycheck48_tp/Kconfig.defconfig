@@ -1,0 +1,6 @@
+if SHIELD_PIXYCHECK48_TP
+
+config ZMK_KEYBOARD_NAME
+    default "pixycheck48_tp"
+
+endif # SHIELD_PIXYCHECK48_TP
