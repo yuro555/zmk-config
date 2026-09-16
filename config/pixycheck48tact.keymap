@@ -75,93 +75,96 @@
 	keymap {
 		compatible = "zmk,keymap";
 		
-		
+		/;
+		?:
+		,
 		qwerty {
 			display-name = "qwerty";
 			bindings = <
 			&kp ESC &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp SLASH
-			&kp TAB &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp JP_MINUS &kp JP_EQUAL
-			&kp LSHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp JP_COMMA &kp JP_DOT &kp BSPC &kp JP_ZKHK
-			&kp LCTRL &kp LGUI &kp LALT &mo _MOUSE &lt _SHIFT LANG2 &kp SPACE &kp ENTER &lt _SYMBOLS INT2 &mo _CURSOR &mo _TENKEY &kp K_APP &mo _ADJUST &none
+			&kp TAB &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp JP_MINUS &kp JP_SEMI
+			&kp LSHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp JP_COMMA &kp JP_DOT &kp BSPC &mo _SHIFT
+			&kp LCTRL &kp LGUI &kp LALT &lt _SHIFT LANG2 &mo _MOUSE  &kp SPACE &kp ENTER &mo _CURSOR &lt _SYMBOLS INT2  &mo _TENKEY &kp K_APP &mo _ADJUST
+			&none
 			>;
 		};
 		game {
 			display-name = "game";
 			bindings = <
-			&none &none &none &none &none &none &none &none &none &none &none &kp BSPC
-			&none &none &none &none &none &none &none &none &none &none &kp UP &kp ENTER
-			&none &none &none &none &none &none &none &none &none &kp LEFT &kp DOWN &kp RIGHT
-			&none &none &none &none &none &none &none &none &none &none &kp RALT &none
-			&none
+			&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp BSPC
+			&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp UP &kp ENTER
+			&trans &trans &trans &trans &trans &trans &trans &trans &trans &kp LEFT &kp DOWN &kp RIGHT
+			&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp RALT &trans
+			&trans
 			>;
 		};
 		righthand {
 			display-name = "righthand";
 			bindings = <
 			&tog _RIGHTHAND &kp P &kp O &kp I &kp U &kp Y &kp T &kp R &kp E &kp W &kp Q &kp ESC
-			&none &kp JP_MINUS &kp L &kp K &kp J &kp H &kp G &kp F &kp D &kp S &kp A &kp TAB
-			&none &kp BSPC &kp JP_DOT &kp JP_COMMA &kp M &kp N &kp B &kp V &kp C &kp X &kp Z &kp RSHIFT
-			&none &none &none &none &none &none &msc SCRL_UP &msc SCRL_DOWN &none &none &kp RALT &kp RCTRL
-			&none
+			&msc SCRL_UP &kp JP_MINUS &kp L &kp K &kp J &kp H &kp G &kp F &kp D &kp S &kp A &kp TAB
+			&msc SCRL_DOWN &kp BSPC &kp JP_DOT &kp JP_COMMA &kp M &kp N &kp B &kp V &kp C &kp X &kp Z &kp RSHIFT
+			&trans &trans &trans &trans &trans &trans &trans &trans &kp LANG2 &trans &kp INT2 &kp RALT &kp RCTRL
+			&trans
 			>;
 		};
 		shift {
 			display-name = "shift";
 			bindings = <
-			&none &kp LS(Q) &kp LS(W) &kp LS(E) &kp LS(R) &kp LS(T) &kp LS(Y) &kp LS(U) &kp LS(I) &kp LS(O) &kp LS(P) &kp JP_QMARK
-			&none &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp LS(G) &kp LS(H) &kp LS(J) &kp LS(K) &kp LS(L) &kp JP_UNDER &kp JP_COLON
-			&none &kp LS(Z) &kp LS(X) &kp LS(C) &kp LS(V) &kp LS(B) &kp LS(N) &kp LS(M) &kp JP_LT &kp JP_RT &kp DEL &kp RSHIFT
-			&none &none &none &none &none &none &kp ENTER &none &none &none &kp RALT &kp RCTRL
-			&none
+			&kp JP_ZKHK  &kp LS(Q) &kp LS(W) &kp LS(E) &kp LS(R) &kp LS(T) &kp LS(Y) &kp LS(U) &kp LS(I) &kp LS(O) &kp LS(P) &kp JP_QMARK
+			&trans &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp LS(G) &kp LS(H) &kp LS(J) &kp LS(K) &kp LS(L) &kp JP_UNDER &kp JP_COLON
+			&trans &kp LS(Z) &kp LS(X) &kp LS(C) &kp LS(V) &kp LS(B) &kp LS(N) &kp LS(M) &kp JP_LT &kp JP_RT &kp DEL &kp RSHIFT
+			&trans &trans &trans &trans &trans &trans &kp ENTER &trans &trans &trans &kp ESC &kp ESC
+			&trans
 			>;
 		};
-		cursor {
+		cursor { 
 			display-name = "cursor";
 			bindings = <
-			&kp JP_ZKHK &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp HOME &none &kp UP &kp K_APP &kp PG_UP &kp HOME
-			&none &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp END &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &kp END
-			&none &kp JP_DOT &kp JP_COMMA &kp JP_EQUAL &kp JP_PLUS &kp JP_MINUS &none &kp LANG2 &kp JP_ZKHK &kp INT2 &kp DEL &kp RSHIFT
-			&none &none &none &none &kp ENTER &none &none &none &none &none &kp RALT &kp RCTRL
-			&none
+			&kp JP_ZKHK &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp HOME &kp ENTER &kp UP &kp BSPC &kp PG_UP &kp HOME
+			&trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp END &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &kp END
+			&trans &kp JP_DOT &kp JP_COMMA &kp JP_EQUAL &kp JP_PLUS &kp JP_MINUS &kp RCTRL &kp RSHIFT &kp RGUI &kp RALT &kp DEL &kp RSHIFT
+			&trans &trans &trans &trans &mo _SYMBOLS &trans &mo _SYMBOLS &trans &mo _MOUSE &kp TAB &kp ESC &kp ESC
+			&trans
 			>;
 		};
 		symbols {
 			display-name = "symbols";
 			bindings = <
-			&none &kp JP_QMARK &kp JP_HASH &kp JP_ASTRK &kp JP_PRCNT &kp JP_CARET &kp JP_YEN &kp JP_LT &kp JP_RT &kp JP_LBRC &kp JP_RBRC &kp JP_QMARK
-			&none &kp JP_PLUS &kp JP_MINUS &kp S &kp JP_EQUAL &kp JP_TILDE &kp JP_UNDER &kp JP_SEMI &kp JP_COLON &kp JP_LPAR &kp JP_RPAR &kp JP_COLON
-			&none &kp JP_AT &kp JP_DLLR &kp JP_AMPS &kp JP_PIPE &kp JP_EXCL &kp JP_GRAVE &kp JP_SQT &kp JP_DQT &kp JP_LBKT &kp JP_RBKT &kp JP_DQT
-			&none &none &none &none &none &none &none &none &none &none &kp RALT &kp RCTRL
-			&none
+			&trans &kp JP_QMARK &kp JP_HASH &kp JP_ASTRK &kp JP_PRCNT &kp JP_CARET &kp JP_YEN &kp JP_LT &kp JP_RT &kp JP_LBRC &kp JP_RBRC &kp JP_QMARK
+			&trans &kp JP_PLUS &kp JP_MINUS &kp S &kp JP_EQUAL &kp JP_TILDE &kp JP_UNDER &kp JP_SEMI &kp JP_COLON &kp JP_LPAR &kp JP_RPAR &kp JP_COLON
+			&trans &kp JP_AT &kp JP_DLLR &kp JP_AMPS &kp JP_PIPE &kp JP_EXCL &kp JP_GRAVE &kp JP_SQT &kp JP_DQT &kp JP_LBKT &kp JP_RBKT &kp JP_DQT
+			&trans &trans &trans &trans &trans &trans &kp ENTER &trans &trans &trans &kp RALT &kp RCTRL
+			&trans
 			>;
 		};
 		tenkey {
 			display-name = "tenkey";
 			bindings = <
-			&none &kp F9 &kp F10 &kp F11 &kp F12 &kp KP_SLASH &kp KP_MINUS &kp KP_COMMA &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp ESC
-			&none &kp F5 &kp F6 &kp F7 &kp F8 &kp KP_ASTERISK &kp KP_PLUS &kp KP_DOT &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp TAB
-			&none &kp F1 &kp F2 &kp F3 &kp F4 &kp KP_ENTER &kp KP_EQUAL &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp RSHIFT
-			&none &none &none &none &none &none &none &none &kp SPACE &none &kp RALT &kp RCTRL
-			&none
+			&trans &kp F9 &kp F10 &kp F11 &kp F12 &kp KP_ASTERISK &kp KP_MINUS &kp KP_COMMA &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp ESC
+			&trans &kp F5 &kp F6 &kp F7 &kp F8 &kp KP_SLASH &kp KP_PLUS &kp KP_DOT &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp TAB
+			&trans &kp F1 &kp F2 &kp F3 &kp F4 &kp KP_EQUAL &kp KP_ENTER &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp RSHIFT
+			&trans  &kp LCTRL &kp LSHIFT &kp TAB &kp ESC &trans &trans &trans &kp K_APP &trans &kp RALT &kp RCTRL
+			&trans
 			>;
 		};
 		mouse {
 			display-name = "mouse";
 			bindings = <
-			&none &msc SCRL_UP &msc SCRL_LEFT &msc SCRL_RIGHT &mkp MB3 &mkp MB4 &msc SCRL_UP &msc SCRL_LEFT &mmv UP &msc SCRL_RIGHT &kp PG_UP &kp HOME
-			&none &msc SCRL_DOWN &mmv MOVE_UP &mkp MB2 &mkp MB1 &mkp MB5 &msc SCRL_DOWN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp PG_DN &kp END
-			&none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none &none &none &mkp MB1 &mkp MB2 &kp RALT &kp RGUI &kp ESC
-			&none &none &none &none &none &none &none &kp LCTRL &kp LSHIFT &kp TAB &kp ESC &kp ESC
-			&none
+			&trans &msc SCRL_UP &msc SCRL_LEFT &msc SCRL_RIGHT &mkp MB3 &mkp MB4 &msc SCRL_UP &msc SCRL_LEFT &mmv MOVE_UP &msc SCRL_RIGHT &kp PG_UP &mkp MB4
+			&trans &msc SCRL_DOWN &mmv MOVE_UP &mkp MB2 &mkp MB1 &mkp MB5 &msc SCRL_DOWN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp PG_DN &mkp MB5
+			&trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none &none &kp RCTRL &kp RSHIFT &kp RGUI &kp RALT &mkp MB1 &mkp MB2
+			&trans &trans &trans &mo _CURSOR &trans &trans &trans &kp LCTRL &kp LSHIFT &kp TAB &kp ESC &mkp MB3
+			&trans
 			>;
 		};
 		adjust {
 			display-name = "adjust";
 			bindings = <
-			&none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &kp CAPS &kp SLCK &kp KP_NUM&kp INS &kp PSCRN &kp PAUSE_BREAK &none
-			&kp C_BRI_UP  &tog _QWERTY &tog _GAME &none &none &none &none &none &none &none &none &none
-			&kp C_BRI_DN &bt BT_CLR &none &none &none &none &none &none &none &none &none &none
-			&kp C_MUTE &kp C_VOL_UP &kp C_VOL_DN &none &none &none &none &none &none &none &tog _RIGHTHAND &none
+			&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &kp CAPS &kp SLCK &kp KP_NUM&kp INS &kp PSCRN &kp PAUSE_BREAK &none
+			&kp C_BRI_UP  &tog _QWERTY &tog _GAME &tog _MOUSE &tog _CURSOR &none &none &none &none &none &none &kp JP_ZKHK
+			&kp C_BRI_DN  &none &none &none &none &kp BSPC &none &none &none &none &none &kp LS(F13)
+			&kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_AL_MY_COMPUTER &kp C_AL_MUSIC &kp C_SLEEP &none &kp K_APP &tog _MOUSE &tog _CURSOR &tog _RIGHTHAND &none
 			&none
 			>;
 		};
