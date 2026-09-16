@@ -79,7 +79,7 @@
 		qwerty {
 			display-name = "qwerty";
 			bindings = <
-			k&kp ESC &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp SLASH
+			&kp ESC &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp SLASH
 			&kp TAB &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp JP_MINUS &kp JP_EQUAL
 			&kp LSHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp JP_COMMA &kp JP_DOT &kp BSPC &kp GRAVE
 			&kp LCTRL &kp LGUI &kp LALT &mo _MOUSE &lt _SHIFT LANG2 &kp SPACE &kp ENTER &lt _SYMBOLS INT2 &mo _CURSOR &mo _TENKEY &kp APP &mo _ADJUST &none
