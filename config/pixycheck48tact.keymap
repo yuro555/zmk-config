@@ -74,10 +74,7 @@
 	// See https://zmk.dev/docs/development/hardware-integration/new-shield#default-keymap.
 	keymap {
 		compatible = "zmk,keymap";
-		
-		/;
-		?:
-		,
+
 		qwerty {
 			display-name = "qwerty";
 			bindings = <
