@@ -91,7 +91,8 @@
 			&none &none &none &none &none &none &none &none &none &none &none &kp BSPC
 			&none &none &none &none &none &none &none &none &none &none &kp UP &kp ENTER
 			&none &none &none &none &none &none &none &none &none &kp LEFT &kp DOWN &kp RIGHT
-			&none &none &none &none &none &none &none &none &none &none &kp RALT &none &none
+			&none &none &none &none &none &none &none &none &none &none &kp RALT &none
+			&none
 			>;
 		};
 		righthand {
@@ -100,7 +101,8 @@
 			&tog _RIGHTHAND &kp P &kp O &kp I &kp U &kp Y &kp T &kp R &kp E &kp W &kp Q &kp ESC
 			&none &kp JP_MINUS &kp L &kp K &kp J &kp H &kp G &kp F &kp D &kp S &kp A &kp TAB
 			&none &kp BSPC &kp JP_DOT &kp JP_COMMA &kp M &kp N &kp B &kp V &kp C &kp X &kp Z &kp RSHIFT
-			&none &none &none &none &none &none &msc SCRL_UP &mmv MOVE_SCRL_DOWN &none &none &kp RALT &kp RCTRL &none
+			&none &none &none &none &none &none &msc SCRL_UP &msc SCRL_DOWN &none &none &kp RALT &kp RCTRL
+			&none
 			>;
 		};
 		shift {
@@ -109,7 +111,8 @@
 			&none &kp LS(Q) &kp LS(W) &kp LS(E) &kp LS(R) &kp LS(T) &kp LS(Y) &kp LS(U) &kp LS(I) &kp LS(O) &kp LS(P) &kp JP_QMARK
 			&none &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp LS(G) &kp LS(H) &kp LS(J) &kp LS(K) &kp LS(L) &kp JP_UNDER &kp JP_COLON
 			&none &kp LS(Z) &kp LS(X) &kp LS(C) &kp LS(V) &kp LS(B) &kp LS(N) &kp LS(M) &kp JP_LT &kp JP_RT &kp DEL &kp RSHIFT
-			&none &none &none &none &none &none &kp ENTER &none &none &none &kp RALT &kp RCTRL &none
+			&none &none &none &none &none &none &kp ENTER &none &none &none &kp RALT &kp RCTRL
+			&none
 			>;
 		};
 		cursor {
@@ -118,7 +121,8 @@
 			&kp JP_ZKHK &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp HOME &none &kp UP &kp APP &kp PG_UP &kp HOME
 			&none &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp END &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &kp END
 			&none &kp JP_DOT &kp JP_COMMA &kp JP_EQUAL &kp JP_PLUS &kp JP_MINUS &none &kp LANG2 &kp JP_ZKHK &kp INT2 &kp DEL &kp RSHIFT
-			&none &none &none &none &kp ENTER &none &none &none &none &none &kp RALT &kp RCTRL &none
+			&none &none &none &none &kp ENTER &none &none &none &none &none &kp RALT &kp RCTRL
+			&none
 			>;
 		};
 		symbols {
@@ -127,7 +131,8 @@
 			&none &kp JP_QMARK &kp JP_HASH &kp JP_ASTRK &kp JP_PRCNT &kp JP_CARET &kp JP_YEN &kp JP_LT &kp JP_RT &kp JP_LBRC &kp JP_RBRC &kp JP_QMARK
 			&none &kp JP_PLUS &kp JP_MINUS &kp S &kp JP_EQUAL &kp JP_TILDE &kp JP_UNDER &kp JP_SEMI &kp JP_COLON &kp JP_LPAR &kp JP_RPAR &kp JP_COLON
 			&none &kp JP_AT &kp JP_DLLR &kp JP_AMPS &kp JP_PIPE &kp JP_EXCL &kp JP_GRAVE &kp JP_SQT &kp JP_DQT &kp JP_LBKT &kp JP_RBKT &kp JP_DQT
-			&none &none &none &none &none &none &none &none &none &none &kp RALT &kp RCTRL &none
+			&none &none &none &none &none &none &none &none &none &none &kp RALT &kp RCTRL
+			&none
 			>;
 		};
 		tenkey {
@@ -136,7 +141,8 @@
 			&none &kp F9 &kp F10 &kp F11 &kp F12 &kp KP_SLASH &kp KP_MINUS &kp KP_COMMA &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp ESC
 			&none &kp F5 &kp F6 &kp F7 &kp F8 &kp KP_ASTERISK &kp KP_PLUS &kp KP_DOT &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp TAB
 			&none &kp F1 &kp F2 &kp F3 &kp F4 &kp KP_ENTER &kp KP_EQUAL &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp RSHIFT
-			&none &none &none &none &none &none &none &none &kp SPACE &none &kp RALT &kp RCTRL &none
+			&none &none &none &none &none &none &none &none &kp SPACE &none &kp RALT &kp RCTRL
+			&none
 			>;
 		};
 		mouse {
@@ -145,7 +151,8 @@
 			&none &msc SCRL_UP &msc SCRL_LEFT &msc SCRL_RIGHT &mkp MB3 &mkp MB4 &msc SCRL_UP &msc SCRL_LEFT &mmv UP &msc SCRL_RIGHT &kp PG_UP &kp HOME
 			&none &msc SCRL_DOWN &mmv MOVE_UP &mkp MB2 &mkp MB1 &mkp MB5 &msc SCRL_DOWN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp PG_DN &kp END
 			&none &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none &none &none &mkp MB1 &mkp MB2 &kp RALT &kp RGUI &kp ESC
-			&none &none &none &none &none &none &none &kp LCTRL &kp LSHIFT &kp TAB &kp ESC &kp ESC &none
+			&none &none &none &none &none &none &none &kp LCTRL &kp LSHIFT &kp TAB &kp ESC &kp ESC
+			&none
 			>;
 		};
 		adjust {
@@ -154,7 +161,8 @@
 			&none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &kp CAPS &kp SLCK &kp KP_NUM&kp INS &kp PSCRN &kp PAUSE_BREAK &none
 			&kp C_BRI_UP  &tog _QWERTY &tog _GAME &none &none &none &none &none &none &none &none &none
 			&kp C_BRI_DN &bt BT_CLR &none &none &none &none &none &none &none &none &none &none
-			&kp C_MUTE &kp C_VOL_UP &kp C_VOL_DN &none &none &none &none &none &none &none &tog _RIGHTHAND &none &none
+			&kp C_MUTE &kp C_VOL_UP &kp C_VOL_DN &none &none &none &none &none &none &none &tog _RIGHTHAND &none
+			&none
 			>;
 		};
 	};
