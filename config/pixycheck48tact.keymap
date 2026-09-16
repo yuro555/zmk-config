@@ -118,7 +118,7 @@
 		cursor {
 			display-name = "cursor";
 			bindings = <
-			&kp JP_ZKHK &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp HOME &none &kp UP &kp APP &kp PG_UP &kp HOME
+			&kp JP_ZKHK &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp HOME &none &kp UP &kp K_APP &kp PG_UP &kp HOME
 			&none &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp END &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &kp END
 			&none &kp JP_DOT &kp JP_COMMA &kp JP_EQUAL &kp JP_PLUS &kp JP_MINUS &none &kp LANG2 &kp JP_ZKHK &kp INT2 &kp DEL &kp RSHIFT
 			&none &none &none &none &kp ENTER &none &none &none &none &none &kp RALT &kp RCTRL
