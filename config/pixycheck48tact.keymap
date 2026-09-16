@@ -75,14 +75,16 @@
 		
 		
 		qwerty {
+			display-name = "qwerty";
 			bindings = <
-			&kp ESC   &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp SLSH
-			&kp TAB   &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp MINS &kp EQL
+			&kp ESC &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &kp SLSH
+			&kp TAB &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp MINS &kp EQL
 			&kp LSHIFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp BSPC &kp GRV
 			&kp LCTRL &kp LGUI &kp LALT &mo _MOUSE &lt _SHIFT LANG2 &kp SPACE &kp ENTER &lt _SYMBOLS INT2 &mo _CURSOR &mo _TENKEY &kp APP &mo _ADJUST &none
 			>;
 		};
 		game {
+			display-name = "game";
 			bindings = <
 			&none &none &none &none &none &none &none &none &none &none &none &kp BSPC
 			&none &none &none &none &none &none &none &none &none &none &kp UP &kp ENTER
@@ -91,6 +93,7 @@
 			>;
 		};
 		righthand {
+			display-name = "righthand";
 			bindings = <
 			&tog _RIGHTHAND &kp P &kp O &kp I &kp U &kp Y &kp T &kp R &kp E &kp W &kp Q &kp ESC
 			&none &kp MINS &kp L &kp K &kp J &kp H &kp G &kp F &kp D &kp S &kp A &kp TAB
@@ -99,6 +102,7 @@
 			>;
 		};
 		shift {
+			display-name = "shift";
 			bindings = <
 			&none &kp LS(Q) &kp LS(W) &kp LS(E) &kp LS(R) &kp LS(T) &kp LS(Y) &kp LS(U) &kp LS(I) &kp LS(O) &kp LS(P) &kp LS(QUES)
 			&none &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp LS(G) &kp LS(H) &kp LS(J) &kp LS(K) &kp LS(L) &kp LS(UNDS) &kp LS(DQUO)
@@ -107,6 +111,7 @@
 			>;
 		};
 		cursor {
+			display-name = "cursor";
 			bindings = <
 			&kp GRV &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp HOME &none &kp UP &kp APP &kp PGUP &kp HOME
 			&none &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp END &kp LEFT &kp DOWN &kp RIGHT &kp PGDN &kp END
@@ -115,6 +120,7 @@
 			>;
 		};
 		symbols {
+			display-name = "symbols";
 			bindings = <
 			&none &kp QUES &kp HASH &kp ASTR &kp PERC &kp CIRC &kp YEN &kp LABK &kp RABK &kp LCBR &kp RCBR &kp COLN
 			&none &kp PLUS &kp MINS &kp S &kp EQL &kp TILD &kp UNDS &kp COLN &kp SCLN &kp LPRN &kp RPRN &kp SCLN
@@ -123,6 +129,7 @@
 			>;
 		};
 		tenkey {
+			display-name = "tenkey";
 			bindings = <
 			&none &kp F9 &kp F10 &kp F11 &kp F12 &kp PSLS &kp PMNS &kp PCMM &kp KP_N7 &kp KP_N8 &kp KP_N9 &kp ESC
 			&none &kp F5 &kp F6 &kp F7 &kp F8 &kp PAST &kp PPLS &kp PDOT &kp K_N4 &kp K_N5 &kp K_N6 &kp TAB
@@ -131,6 +138,7 @@
 			>;
 		};
 		mouse {
+			display-name = "mouse";
 			bindings = <
 			&none &msc SCRL_UP &msc SCRL_LEFT &msc SCRL_RIGHT &mkp MB3 &mkp MB4 &msc SCRL_UP &msc SCRL_LEFT &mmv UP &msc SCRL_RIGHT &kp PGUP &kp HOME
 			&none &msc SCRL_DOWN &mmv MOVE_UP &mkp MB2 &mkp MB1 &mkp MB5 &msc SCRL_DOWN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp PGDN &kp END
@@ -139,6 +147,7 @@
 			>;
 		};
 		adjust {
+			display-name = "adjust";
 			bindings = <
 			&none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &kp CAPS &kp SCRL &kp NUM &kp INS &kp PSCR &kp PAUS &none
 			&none  &tog _QWERTY &tog _GAME &none &none &none &none &none &none &none &none &none
