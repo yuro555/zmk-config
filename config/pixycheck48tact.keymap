@@ -13,19 +13,18 @@
 #include <dt-bindings/zmk/pointing.h>
 
 
-enum layer_number {
-	_QWERTY = 0,
-	_GAME,
-	_RIGHTHAND,
-	_SHIFT,
-	_CURSOR,
-	_SYMBOLS,
-	_TENKEY,
-	_MOUSE,
-	_ADJUST
-}; 
+//レイヤー定義
+#define _QWERTY = 0
+#define _GAME = 1
+#define _RIGHTHAND = 2
+#define _SHIFT = 3
+#define _CURSOR = 4
+#define _SYMBOLS = 5
+#define _TENKEY = 6
+#define _MOUSE = 7
+#define _ADJUST = 8
 
-
+//JP定義
 
 #define JP_ZKHK  GRAVE        // Zenkaku ↔ Hankaku ↔ Kanji (半角 ↔ 全角 ↔ 漢字)
 #define JP_MINUS MINUS        // -
