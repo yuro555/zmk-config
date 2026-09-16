@@ -14,15 +14,15 @@
 
 
 //レイヤー定義
-#define _QWERTY = 0
-#define _GAME = 1
-#define _RIGHTHAND = 2
-#define _SHIFT = 3
-#define _CURSOR = 4
-#define _SYMBOLS = 5
-#define _TENKEY = 6
-#define _MOUSE = 7
-#define _ADJUST = 8
+#define _QWERTY 	0
+#define _GAME 		1
+#define _RIGHTHAND 	2
+#define _SHIFT 		3
+#define _CURSOR 	4
+#define _SYMBOLS 	5
+#define _TENKEY 	6
+#define _MOUSE 		7
+#define _ADJUST 	8
 
 
 
