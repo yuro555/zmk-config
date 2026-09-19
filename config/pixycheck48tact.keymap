@@ -92,7 +92,7 @@
 			&kp TAB &kp A &kp S &kp D &kp F &kp G                                                    &kp H &kp J &kp K &kp L &kp JP_MINUS &kp JP_SEMI
 			&kp LSHIFT &kp Z &kp X &kp C &kp V &kp B                                                 &kp N &kp M &kp JP_COMMA &kp JP_DOT &kp BSPC &mo _SHIFT
 			&kp LCTRL &kp LGUI &kp LALT &lt _SHIFT LANG2 &mo _MOUSE  &kp SPACE                       &kp ENTER &mo _CURSOR &lt _RIGHTHAND INT2  &mo _TENKEY &kp K_APP &mo _ADJUST
-			&tog _QWERTY_10x4
+			&to _QWERTY_10x4
 			>;
 		};
 		game {
@@ -102,7 +102,7 @@
 			&trans &trans &trans &trans &trans &trans                                                 &trans &trans &trans &trans &kp UP &kp ENTER
 			&trans &trans &trans &trans &trans &trans                                                 &trans &trans &trans &kp LEFT &kp DOWN &kp RIGHT
 			&trans &trans &trans &trans &trans &trans                                                 &trans &trans &trans &trans &kp RALT &trans
-			&tog _QWERTY_10x4
+			&to _QWERTY_10x4
 			>;
 		};
 		righthand {
@@ -112,7 +112,7 @@
 			&msc SCRL_UP &kp JP_MINUS &kp L &kp K &kp J &kp H                                          &kp G &kp F &kp D &kp S &kp A &kp TAB
 			&msc SCRL_DOWN &kp BSPC &kp JP_DOT &kp JP_COMMA &kp M &kp N                                &kp B &kp V &kp C &kp X &kp Z &kp RSHIFT
 			&trans &trans &trans &trans &trans &trans                                                  &trans &kp LANG2 &trans &kp INT2 &kp RALT &kp RCTRL
-			&tog _QWERTY_10x4
+			&to _QWERTY_10x4
 			>;
 		};
 		shift {
@@ -122,7 +122,7 @@
 			&trans &kp LS(A) &kp LS(S) &kp LS(D) &kp LS(F) &kp LS(G)                                   &kp LS(H) &kp LS(J) &kp LS(K) &kp LS(L) &kp JP_UNDER &kp JP_COLON
 			&trans &kp LS(Z) &kp LS(X) &kp LS(C) &kp LS(V) &kp LS(B)                                   &kp LS(N) &kp LS(M) &kp JP_LT &kp JP_RT &kp DEL &kp RSHIFT
 			&trans &trans &trans &trans &trans &trans                                                  &kp ENTER &trans &trans &trans &kp ESC &kp ESC
-			&tog _QWERTY_10x4
+			&to _QWERTY_10x4
 			>;
 		};
 		cursor {
@@ -132,7 +132,7 @@
 			&trans &kp N1 &kp N2 &kp N3 &kp N4 &kp N5                                                  &kp END &kp LEFT &kp DOWN &kp RIGHT &kp PG_DN &kp END
 			&trans &kp JP_DOT &kp JP_COMMA &kp JP_EQUAL &kp JP_PLUS &kp JP_MINUS                       &kp RCTRL &kp RSHIFT &kp RGUI &kp RALT &kp DEL &kp RSHIFT
 			&trans &trans &trans &trans &mo _SYMBOLS &trans                                            &mo _SYMBOLS &trans &mo _MOUSE &kp TAB &kp ESC &kp ESC
-			&tog _QWERTY_10x4
+			&to _QWERTY_10x4
 			>;
 		};
 		symbols {
@@ -142,7 +142,7 @@
 			&trans &kp JP_PLUS &kp JP_MINUS &kp JP_SLASH &kp JP_EQUAL &kp JP_TILDE                     &kp JP_UNDER &kp JP_SEMI &kp JP_COLON &kp JP_LPAR &kp JP_RPAR &kp JP_COLON
 			&trans &kp JP_AT &kp JP_DLLR &kp JP_AMPS &kp JP_PIPE &kp JP_EXCL                           &kp JP_GRAVE &kp JP_SQT &kp JP_DQT &kp JP_LBKT &kp JP_RBKT &kp JP_DQT
 			&trans &trans &trans &trans &trans &trans                                                  &kp ENTER &trans &trans &trans &kp RALT &kp RCTRL
-			&tog _QWERTY_10x4
+			&to _QWERTY_10x4
 			>;
 		};
 		tenkey {
@@ -152,7 +152,7 @@
 			&trans &kp F5 &kp F6 &kp F7 &kp F8 &kp KP_SLASH                                            &kp KP_PLUS &kp KP_DOT &kp KP_N4 &kp KP_N5 &kp KP_N6 &kp TAB
 			&trans &kp F1 &kp F2 &kp F3 &kp F4 &kp KP_EQUAL                                            &kp KP_ENTER &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N3 &kp RSHIFT
 			&trans  &kp LCTRL &kp LSHIFT &kp TAB &kp ESC &trans                                        &trans &trans &kp K_APP &trans &kp RALT &kp RCTRL
-			&tog _QWERTY_10x4
+			&to _QWERTY_10x4
 			>;
 		};
 		mouse {
@@ -162,7 +162,7 @@
 			&trans &msc SCRL_DOWN &mmv MOVE_UP &mkp MB2 &mkp MB1 &mkp MB5                              &msc SCRL_DOWN &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp PG_DN &mkp MB5
 			&trans &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &none &none                           &kp RCTRL &kp RSHIFT &kp RGUI &kp RALT &mkp MB1 &mkp MB2
 			&trans &trans &trans &mo _CURSOR &trans &trans                                             &trans &kp LCTRL &kp LSHIFT &kp TAB &kp ESC &mkp MB3
-			&tog _QWERTY_10x4
+			&to _QWERTY_10x4
 			>;
 		};
 		
@@ -175,11 +175,11 @@
 			display-name = "qwerty_10x4";
 			bindings = <
 
-			&mo _CURSOR_10x4	&kp ESC		&kp R 	&kp F	&kp V	&mo _MOUSE_10x4 				&kp T &kp Y &kp U &kp I &kp O &kp P
-			&mo _MOUSE_10x4		&kp TAB		&kp E	&kp D	&kp C 	&lt _SHIFT_10x4 LANG2  			&kp G &kp H &kp J &kp K &kp L &kp JP_MINUS
-			&mo _SYMBOLS_10x4	&kp LSHIFT	&kp W	&kp S	&kp X 	&kp LALT 						&kp B &kp N &kp M &kp JP_COMMA &kp JP_DOT &kp BSPC
-			&mo _SHIFT_10x4		&kp LCTRL	&kp Q 	&kp A	&kp Z 	&kp LGUI 						&kp SPACE &kp ENTER &mo _CURSOR_10x4 &lt _RIGHTHAND_10x4 INT2  &mo _TENKEY_10x4 &mo _ADJUST
-			&tog _QWERTY_10x4
+			&mo _SYMBOLS_10x4	&kp ESC		&kp R 	&kp F	&kp V	&mo _MOUSE_10x4 				&kp T &kp Y &kp U &kp I &kp O &kp P
+			&mo _SHIFT_10x4		&kp TAB		&kp E	&kp D	&kp C 	&lt _SHIFT_10x4 LANG2  			&kp G &kp H &kp J &kp K &kp L &kp JP_MINUS
+			&mo _CURSOR_10x4	&kp LSHIFT	&kp W	&kp S	&kp X 	&kp LALT 						&kp B &kp N &kp M &kp JP_COMMA &kp JP_DOT &kp BSPC
+			&mo _MOUSE_10x4		&kp LCTRL	&kp Q 	&kp A	&kp Z 	&kp LGUI 						&kp SPACE &kp ENTER &mo _CURSOR_10x4 &lt _RIGHTHAND_10x4 INT2  &mo _TENKEY_10x4 &mo _ADJUST
+			&to _QWERTY
 			>;
 		};
 		game_10x4 {
@@ -189,7 +189,7 @@
 			&trans &trans &trans &trans &trans &trans												&trans &trans &trans &trans &trans &trans 
 			&trans &trans &trans &trans &trans &trans												&trans &trans &trans  &kp UP &kp RIGHT&trans 
 			&trans &trans &trans &trans &trans &trans												&trans &trans &trans &kp LEFT  &kp DOWN &trans
-			&tog _QWERTY_10x4
+			&to _QWERTY
 			>;
 		};
 		righthand_10x4 {
@@ -199,7 +199,7 @@
 			&trans &trans &kp I &kp K &kp JP_COMMA &trans											&kp H &kp G &kp F &kp D &kp S &kp A
 			&trans &trans &kp O &kp L &kp JP_DOT &trans												&kp N &kp B &kp V &kp C &kp X &kp Z
 			&trans &trans &kp P &kp JP_MINUS &kp BSPC &trans										&trans &trans &kp LANG2 &trans &kp INT2 &kp RALT
-			&tog _QWERTY_10x4
+			&to _QWERTY
 			>;
 		};
 		shift_10x4 {
@@ -209,7 +209,7 @@
 			&trans &trans &kp LS(E) &kp LS(D) &kp LS(C) &trans										&kp LS(G) &kp LS(H) &kp LS(J) &kp LS(K) &kp LS(L) &kp JP_UNDER 
 			&trans &trans &kp LS(W) &kp LS(S) &kp LS(X) &trans										&kp LS(B) &kp LS(N) &kp LS(M) &kp JP_LT &kp JP_RT &kp DEL
 			&trans &trans &kp LS(Q) &kp LS(A) &kp LS(Z) &trans										&trans &kp ENTER &trans &trans &trans &kp ESC
-			&tog _QWERTY_10x4
+			&to _QWERTY
 			>;
 		};
 		cursor_10x4 {
@@ -219,7 +219,7 @@
 			&mo _SYMBOLS_10x4	 &trans &kp N8 &kp N3 &kp JP_EQUAL &trans							&kp N5 &kp END	&kp BSPC	&kp LEFT 	&kp DOWN	&kp PG_DN
 			&trans &trans &kp N7 &kp N2 &kp JP_COMMA &trans											&kp JP_MINUS &kp RCTRL &kp RSHIFT &kp RGUI &kp RALT &kp DEL
 			&trans &trans &kp N6 &kp N1 &kp JP_DOT &trans											&trans &mo _SYMBOLS_10x4 &trans &mo _MOUSE_10x4 &kp TAB &kp ESC
-			&tog _QWERTY_10x4
+			&to _QWERTY
 			>;
 		};
 		symbols_10x4 {
@@ -229,7 +229,7 @@
 			&trans &trans &kp JP_ASTRK &kp JP_SLASH &kp JP_AMPS &trans								&kp JP_TILDE &kp JP_UNDER &kp JP_SEMI &kp JP_COLON &kp JP_LPAR &kp JP_RPAR
 			&trans &trans &kp JP_HASH &kp JP_MINUS &kp JP_DLLR  &trans								&kp JP_EXCL &kp JP_GRAVE &kp JP_SQT &kp JP_DQT &kp JP_LBKT &kp JP_RBKT
 			&trans &trans &kp JP_QMARK &kp JP_PLUS &kp JP_AT    &trans								&trans &kp ENTER &trans &trans &trans &kp RALT
-			&tog _QWERTY_10x4
+			&to _QWERTY
 			>;
 		};
 		tenkey_10x4 {
@@ -239,7 +239,7 @@
 			&trans &trans &kp F11 &kp F7 &kp F3 &kp TAB												&kp KP_SLASH &kp KP_PLUS &kp KP_DOT &kp KP_N4 &kp KP_N5 &kp KP_N6
 			&trans &trans &kp F10 &kp F6 &kp F2 &kp LSHIFT											&kp KP_EQUAL &kp KP_ENTER &kp KP_N0 &kp KP_N1 &kp KP_N2 &kp KP_N3
 			&trans &trans &kp F9  &kp F5 &kp F1 &kp LCTRL											&trans &trans &trans &kp K_APP &trans &kp RALT
-			&tog _QWERTY_10x4
+			&to _QWERTY
 			>;
 		};
 		mouse_10x4 {
@@ -249,7 +249,7 @@
 			&trans &trans &msc SCRL_RIGHT	&mmv MOVE_UP	&mmv MOVE_RIGHT	&mo _CURSOR_10x4					&mkp MB5 &msc SCRL_DOWN &msc SCRL_LEFT	&mmv MOVE_LEFT &mmv MOVE_DOWN 	 &kp PG_DN
 			&trans &trans &msc SCRL_LEFT	&mmv MOVE_LEFT	&mmv MOVE_DOWN	&trans								&none &kp RCTRL &kp RSHIFT &kp RGUI &kp RALT &mkp MB1
 			&trans &trans &msc SCRL_UP		&msc SCRL_DOWN	&none			&trans								&trans &trans &kp LCTRL &kp LSHIFT &kp TAB &kp ESC
-			&tog _QWERTY_10x4
+			&to _QWERTY
 			>;
 		};
 
@@ -258,11 +258,11 @@
 	adjust {
 			display-name = "adjust";
 			bindings = <
-			&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &kp CAPS                                         &kp SLCK &kp KP_NUM &kp INS &kp PSCRN &kp PAUSE_BREAK &none
-			&kp C_BRI_UP  &tog _QWERTY &tog _GAME &tog _MOUSE &tog _CURSOR &none                                     &none &none &none &none &none &kp JP_ZKHK
-			&kp C_BRI_DN  &tog _QWERTY_10x4 &tog _GAME_10x4 &tog _MOUSE_10x4 &tog _CURSOR_10x4 &kp BSPC               &none &none &none &none &none &kp LS(F13)
-			&kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_AL_MY_COMPUTER &kp C_AL_MUSIC &kp C_SLEEP                     &none &kp K_APP &tog _MOUSE &tog _CURSOR &tog _RIGHTHAND &none
-			&tog _QWERTY_10x4
+			&bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &kp CAPS                                   &kp SLCK &kp KP_NUM &kp INS &kp PSCRN &kp PAUSE_BREAK &none
+			&kp C_BRI_UP  &to  _QWERTY &to _GAME &to _MOUSE &to _CURSOR &none                                  &none &none &none &none &none &kp JP_ZKHK
+			&kp C_BRI_DN  &tog _QWERTY_10x4 &tog _GAME_10x4 &tog _MOUSE_10x4 &tog _CURSOR_10x4 &kp BSPC        &none &none &none &none &none &kp LS(F13)
+			&kp C_MUTE &kp C_VOL_DN &kp C_VOL_UP &kp C_AL_MY_COMPUTER &kp C_AL_MUSIC &kp C_SLEEP               &none &kp K_APP &to _MOUSE &to _CURSOR &to _RIGHTHAND &none
+			&to _QWERTY
 			>;
 		};
 	
