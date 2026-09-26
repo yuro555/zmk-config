@@ -258,10 +258,10 @@
 		mouse_10x4 {
 			display-name = "mouse_10x4";
 			bindings = <
-			&trans &trans &mkp MB3			&mkp MB1		&mkp MB2		&trans								&mkp MB4 &msc SCRL_UP 	&msc SCRL_RIGHT	&mmv MOVE_UP 	&mmv MOVE_RIGHT &kp PG_UP
-			&trans &trans &msc SCRL_RIGHT	&mmv MOVE_UP	&mmv MOVE_RIGHT	&mo _CURSOR_10x4					&mkp MB5 &msc SCRL_DOWN &msc SCRL_LEFT	&mmv MOVE_LEFT &mmv MOVE_DOWN 	 &kp PG_DN
-			&trans &trans &msc SCRL_LEFT	&mmv MOVE_LEFT	&mmv MOVE_DOWN	&trans								&none &kp RCTRL &kp RSHIFT &kp RGUI &kp RALT &mkp MB1
-			&trans &trans &msc SCRL_UP		&msc SCRL_DOWN	&none			&trans								&trans &trans &kp LCTRL &kp LSHIFT &kp TAB &kp ESC
+			&trans &trans &mkp MB3			&mkp MB1		&none			&trans								&mkp MB4 &msc SCRL_UP 	&msc SCRL_RIGHT	&mmv MOVE_UP 	&mmv MOVE_RIGHT &kp PG_UP
+			&trans &trans &msc SCRL_RIGHT	&mkp MB2		&mmv MOVE_RIGHT	&mo _CURSOR_10x4					&mkp MB5 &msc SCRL_DOWN &msc SCRL_LEFT	&mmv MOVE_LEFT &mmv MOVE_DOWN 	 &kp PG_DN
+			&trans &trans &msc SCRL_LEFT	&mmv MOVE_UP	&mmv MOVE_DOWN	&trans								&none &kp RCTRL &kp RSHIFT &kp RGUI &kp RALT &mkp MB1
+			&trans &trans &msc SCRL_UP		&msc SCRL_DOWN	&mmv MOVE_LEFT	&trans								&trans &trans &kp LCTRL &kp LSHIFT &kp TAB &kp ESC
 			&trans
 			>;
 		};
